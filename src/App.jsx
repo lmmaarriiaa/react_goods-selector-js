@@ -17,7 +17,7 @@ export const goods = [
 ];
 
 export const App = () => {
-  const [selectedGood, setSelectedGood] = useState(goods[8]);
+  const [selectedGood, setSelectedGood] = useState('Jam');
 
   return (
     <main className="section container">
